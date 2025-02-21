@@ -80,30 +80,13 @@ export default function Welcome() {
               cardsPerRow={[{ cards: 1 }, { minWidth: 700, cards: 3 }]}
               items={[
                 {
-                  name: "Step 1",
+                  name: "Generate RFP with your data",
                   external: true,
                   type: "AWS Fully Managed",
                   href: "https://aws.amazon.com/bedrock/",
-                  img: "/images/welcome/amazon-bedrock.png",
+                  img: "/images/welcome/RFPGen.png",
                   description:
                     "Select the preferred LLM from the dropdown and upload the excel/csv file having the question list.",
-                },
-                {
-                  name: "Step 2",
-                  external: true,
-                  type: "AWS Self hosted",
-                  href: "https://aws.amazon.com/sagemaker/",
-                  img: "/images/welcome/self-hosted.jpg",
-                  description:
-                    "Enter the reference id for the uploaded document and click Send",
-                },
-                {
-                  name: "Step 3",
-                  type: "External API",
-                  href: "#",
-                  img: "/images/welcome/3p.png",
-                  description:
-                    "Add feedback to improve the responses for further queries.",
                 },
               ]}
             />
